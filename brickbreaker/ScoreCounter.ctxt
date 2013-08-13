@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScoreCounter()
+comment1.params=
+comment1.target=void\ paint()
+comment1.text=\n\ Paint\ the\ actor.\n
+comment2.params=amount
+comment2.target=void\ addScore(int)
+comment2.text=\n\ Add\ some\ score\ to\ the\ counter.\n
+numComments=3

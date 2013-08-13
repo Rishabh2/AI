@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=center\ target
+comment0.target=Vector\ getGravitationalForce(Matter,\ Matter)
+comment0.text=\n\ Returns\ a\ vector\ that\ represents\ the\ gravitational\ force\ between\ two\ Matter\ objects,\ assuming\n\ that\ the\ center\ object\ is\ the\ object\ on\ which\ the\ force\ is\ being\ applied.\n
+comment1.params=center\ target
+comment1.target=double\ distanceBetween(Matter,\ Matter)
+comment1.text=\n\ Returns\ the\ distance\ between\ two\ Matter\ objects.\n
+comment2.params=center\ target
+comment2.target=double\ angleBetween(Matter,\ Matter)
+comment2.text=\n\ Returns\ the\ angle\ between\ two\ Matter\ objects.\n
+numComments=3

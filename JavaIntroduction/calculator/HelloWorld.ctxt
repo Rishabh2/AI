@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ When\ you\ tell\ a\ Java\ class\ to\ execute,\ it\ will\ first\ try\ to\ start\ from\ the\ main\ function.\ The\n\ header\ below,\ "public\ static\ void\ main",\ is\ the\ standard\ header\ for\ the\ starting\ point\ of\ Java\n\ programs.\n
+numComments=1

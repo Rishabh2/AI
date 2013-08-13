@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ A\ projectile\ should\ move,\ and\ destroy\ if\ it\ is\ hitting\ an\ asteroid\ or\ on\ the\ edge\ of\ the\ world.\n
+comment1.params=
+comment1.target=void\ checkForAsteroid()
+comment1.text=\n\ Checks\ if\ we\ are\ hitting\ an\ asteroid,\ and\ shrinks\ the\ asteroid\ if\n\ we\ are\ in\ contact\ with\ one.\ Afterwards,\ the\ projectile\ disappears.\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\n\ Checks\ if\ this\ projectile\ is\ at\ the\ edge\ of\ our\ world.\n
+comment3.params=
+comment3.target=void\ destroy()
+comment3.text=\n\ Removes\ this\ projectile\ from\ the\ world.\n
+numComments=4

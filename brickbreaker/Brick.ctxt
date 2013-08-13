@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Brick()
+comment0.text=\n\ Constructor\ for\ the\ brick.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ All\ a\ brick\ does\ is\ check\ if\ it\ has\ hit\ a\ ball.\n
+comment2.params=
+comment2.target=void\ checkCollisions()
+comment2.text=\n\ If\ the\ brick\ has\ hit\ a\ ball,\ tell\ the\ ball\ to\ bounce\ vertically,\ then\ remove\ \n\ myself\ from\ the\ world.\n
+comment3.params=
+comment3.target=int\ getScoreValue()
+comment3.text=\n\ Return\ the\ score\ value\ of\ this\ brick.\n
+numComments=4

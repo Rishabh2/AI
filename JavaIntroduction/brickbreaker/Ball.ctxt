@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ A\ ball\ moves\ and\ bounces.\n
+comment1.params=
+comment1.target=void\ bounceFromEdge()
+comment1.text=\n\ Bounces\ off\ the\ edge\ if\ it\ senses\ it.\n
+comment2.params=
+comment2.target=void\ bounceFromPaddle()
+comment2.text=\n\ Bounces\ off\ the\ paddle\ if\ it\ senses\ it.\n
+comment3.params=
+comment3.target=void\ verticalBounce()
+comment3.text=\n\ Performs\ a\ vertical\ bounce\ by\ changing\ the\ direction\ of\ the\ ball\ accordingly.\n
+comment4.params=
+comment4.target=void\ horizontalBounce()
+comment4.text=\n\ Performs\ a\ horizontal\ bounce\ by\ changing\ the\ direction\ of\ the\ ball\ accordingly.\n
+numComments=5

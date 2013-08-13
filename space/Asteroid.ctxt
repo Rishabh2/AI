@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ An\ Asteroid\ can\ move\ around\ in\ as\ simple\ or\ as\ complex\ a\ way\ as\ you\ want.\n
+comment1.params=
+comment1.target=void\ shrink()
+comment1.text=\n\ This\ method\ takes\ the\ image\ of\ the\ Asteroid\ object,\ and\ shrinks\ it\ by\ scaling\n\ it\ down\ by\ a\ certain\ amount.\ If\ the\ Asteroid\ is\ too\ small\ to\ shrink\ any\ further,\ \n\ it\ should\ call\ the\ destroy()\ method.\n
+comment2.params=
+comment2.target=void\ destroy()
+comment2.text=\n\ Destroys\ this\ asteroid\ by\ removing\ it\ from\ the\ world.\n
+numComments=3

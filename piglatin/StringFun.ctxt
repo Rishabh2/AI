@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringFun()
+comment1.params=str
+comment1.target=java.lang.String\ firstLetter(java.lang.String)
+comment2.params=str
+comment2.target=java.lang.String\ firstThreeLetters(java.lang.String)
+comment3.params=part1\ part2
+comment3.target=java.lang.String\ combine(java.lang.String,\ java.lang.String)
+comment4.params=str\ n
+comment4.target=java.lang.String\ firstNLetters(java.lang.String,\ int)
+comment5.params=str
+comment5.target=java.lang.String\ addFunnyEnding(java.lang.String)
+comment6.params=str
+comment6.target=boolean\ beginsWithA(java.lang.String)
+comment7.params=str
+comment7.target=java.lang.String\ reverse(java.lang.String)
+numComments=8

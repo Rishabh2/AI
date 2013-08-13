@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=java.lang.String\ convert(java.lang.String)
+comment1.params=input
+comment1.target=java.lang.String\ convertWord(java.lang.String)
+comment2.params=letter
+comment2.target=boolean\ isVowel(char)
+numComments=3

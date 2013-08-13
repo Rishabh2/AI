@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HealthBar()
+comment0.text=\n\ The\ constructor\ for\ our\ HealthBar\ object.\ This\ method\ is\ called\ whenever\ we\n\ create\ a\ HealthBar\ object.\n
+comment1.params=
+comment1.target=void\ paint()
+comment1.text=\n\ Repaints\ this\ health\ bar.\n
+comment2.params=actor
+comment2.target=void\ setActor(greenfoot.Actor)
+comment2.text=\n\ Sets\ the\ actor\ that\ this\ health\ bar\ records\ health\ for.\ If\ the\ health\ is\ less\ than\n\ or\ equal\ to\ 0,\ it\ will\ remove\ this\ actor\ from\ the\ world.\n
+comment3.params=amount
+comment3.target=void\ subtractHealth(int)
+comment3.text=\n\ Subtracts\ the\ given\ amount\ of\ health\ from\ the\ healthbar,\ assuming\ that\ maximum\ health\n\ is\ equal\ to\ 100.\n
+comment4.params=amount
+comment4.target=void\ addHealth(int)
+comment4.text=\n\ Adds\ to\ the\ amount\ of\ health\ from\ the\ healthbar\n
+comment5.params=
+comment5.target=void\ reset()
+numComments=6

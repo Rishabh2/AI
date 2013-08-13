@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BrickWorld()
+comment0.text=\n\ Constructor\ for\ the\ BrickWorld.\n
+comment1.params=amount
+comment1.target=void\ addScore(int)
+comment1.text=\n\ Tells\ the\ ScoreCounter\ object\ in\ the\ BrickWorld\ to\ add\ an\ amount\ to\ the\ score.\n
+comment2.params=
+comment2.target=void\ createBricks()
+comment2.text=\n\ Creates\ the\ bricks\ for\ this\ world.\n
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\n\ objects\ and\ add\ them\ to\ the\ world.\n
+numComments=4

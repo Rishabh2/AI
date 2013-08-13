@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Garden()
+comment0.text=\n\ Create\ a\ new\ world\ with\ 8x8\ cells\ and\n\ with\ a\ cell\ size\ of\ 60x60\ pixels\n
+comment1.params=howMany
+comment1.target=void\ randomApples(int)
+comment1.text=\n\ Place\ a\ number\ of\ apples\ into\ the\ world\ at\ random\ places.\n\ The\ number\ of\ apples\ can\ be\ specified.\n
+numComments=2

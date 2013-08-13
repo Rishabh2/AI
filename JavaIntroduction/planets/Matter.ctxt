@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Matter()
+comment0.text=\n\ Constructor\ for\ Matter.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Matter's\ act\ method,\ where\ it\ gravitates\ to\ other\ Matter\ objects\ by\ changing\ its\ velocity\n\ vector,\ then\ changes\ its\ position\ according\ to\ its\ new\ velocity.\n
+comment2.params=
+comment2.target=void\ changePosition()
+comment2.text=\n\ Changes\ the\ position\ of\ the\ Matter\ object\ by\ adding\ the\ velocity\ vector\ to\ the\ position\ vector.\n
+comment3.params=
+comment3.target=void\ gravitate()
+comment3.text=\n\ Uses\ the\ law\ of\ universal\ gravitation\ to\ adjust\ the\ velocity\ of\ this\ matter\ according\ to\n\ the\ position\ of\ all\ other\ matter,\ using\ the\ static\ functions\ in\ the\ Gravity\ class.\n
+comment4.params=other
+comment4.target=boolean\ isTouching(Matter)
+comment4.text=\n\ Returns\ true\ if\ this\ Matter\ is\ touching\ the\ provided\ Matter\ object.\n
+comment5.params=
+comment5.target=double\ getMass()
+comment5.text=\n\ Returns\ the\ mass\ of\ this\ matter.\n
+comment6.params=
+comment6.target=double\ getRadius()
+comment6.text=\n\ Returns\ the\ radius\ of\ this\ matter.\n
+numComments=7

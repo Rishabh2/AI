@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Since\ our\ rocket\ is\ controlled\ by\ the\ arrow\ keys,\ the\ only\ thing\ that\ we\ need\n\ to\ do\ in\ the\ act\ method\ is\ check\ on\ which\ keys\ are\ pressed.\n
+comment1.params=
+comment1.target=void\ checkKeys()
+comment1.text=\n\ checkKeys\ checks\ the\ keyboard\ keys\ and\ moves\ the\ rocket\ accordingly.\n
+comment2.params=
+comment2.target=void\ checkFireKey()
+comment2.text=\n\ This\ method\ checks\ if\ the\ fire\ key\ is\ pressed.\ If\ the\ fire\ key\ is\ pressed,\n\ it\ will\ call\ the\ fireProjectile()\ method.\n
+comment3.params=
+comment3.target=void\ checkForAsteroid()
+comment3.text=\n\ Check\ if\ we're\ hitting\ an\ asteroid.\n
+comment4.params=
+comment4.target=void\ fireProjectile()
+comment4.text=\n\ This\ method\ creates\ a\ new\ Projectile\ object,\ and\ fires\ it\ in\ the\ direction\n\ that\ this\ rocket\ is\ pointing\ in.\n
+comment5.params=
+comment5.target=void\ subtractHealth()
+comment5.text=\n\ This\ method\ calls\ our\ health\ bar's\ subtractHealth()\ method.\n
+comment6.params=hb
+comment6.target=void\ setHealthBar(HealthBar)
+comment6.text=\n\ This\ is\ a\ "setter".\ It\ is\ a\ method\ that\ takes\ one\ input\ -\ a\ reference\ to\ a\n\ HealthBar\ object\ -\ and\ sets\ our\ local\ reference\ to\ that\ object.\ \n
+numComments=7
