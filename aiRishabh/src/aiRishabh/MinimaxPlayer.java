@@ -13,7 +13,7 @@ public class MinimaxPlayer implements TicTacToePlayer {
 		Move[] moves = getAllMoves(game);
 		for (int i = 0; i < moves.length; i++){
 			TicTacToeGame g = new TicTacToeGame(game);
-			g.makeMove(moves[0]);
+			g.makeMove(moves[i]);
 			if (g.getGameWinner() == me) {
 				moves[i].utility = 1;
 			}
@@ -46,7 +46,7 @@ public class MinimaxPlayer implements TicTacToePlayer {
 		Move[] moves = getAllMoves(game);
 		for (int i = 0; i < moves.length; i++){
 			TicTacToeGame g = new TicTacToeGame(game);
-			g.makeMove(moves[0]);
+			g.makeMove(moves[i]);
 			if (g.getGameWinner() == me) {
 				moves[i].utility = 1;
 			}
