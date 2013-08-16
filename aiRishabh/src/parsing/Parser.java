@@ -17,6 +17,7 @@ public class Parser {
 		Subject subject = parseSubject();
 		Verb verb = parseVerb();
 		Predicate predicate = parsePredicate();
+		return null;
 	}
 	
 	private Predicate parsePredicate() {

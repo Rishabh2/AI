@@ -1,7 +1,7 @@
 package Mancala;
 
 public class Mancala {
-	private static final int SIZE = 4;
+	private static final int SIZE = 15;
 	
 	int[] pocket; // array of number of gems per pocket
 	boolean player = true; // true = player 1, false = player 2
@@ -84,8 +84,21 @@ public class Mancala {
 		return pocket[0] - pocket[7];
 	}
 	
-	
 	public boolean makeMove(int p){
+		int count = pocket[(player) ? p : p + 7];
+		pocket[(player) ? p : p + 7] = 0;
+		int next = (player) ? p + 1 : p + 8;
+		for (int i = 0; i < count; i++){
+			if (next > 13) next = (player) ? 1 : 0;
+			if (!player && next == 7) next ++;
+			pocket[next]++;
+			next++;
+		}
+		return (next - 1 == 7 || next - 1 == 0);
+	}
+	
+	
+	/*public boolean makeMove(int p){
 		int i;
 		//int current = 0;
 		int p2 = p+7;
@@ -124,15 +137,15 @@ public class Mancala {
 			return true;
 		else if (!player && (p2 + i == 7 || p2 + i == 20))
 			return true;
-		/*else if (pocket[current] == 1){
+		else if (pocket[current] == 1){
 			pocket[(player) ? 7 : 0] += 1 + pocket[14-current];
 			pocket[current] = 0;
 			pocket [14-current] = 0;		
-}*/
+}
 		return false;
 		
 		
-	}
+	}*/
 	public void switchPlayer(){
 		player = !player;
 	}

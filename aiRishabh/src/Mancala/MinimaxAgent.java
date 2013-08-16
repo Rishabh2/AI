@@ -40,7 +40,7 @@ public class MinimaxAgent implements Agent {
 			}
 		}
 		Move best = moves[0];
-		best.value = Integer.MIN_VALUE;
+		
 		for (int i = 1; i < moves.length; i++)
 			if (moves[i].value > best.value)
 				best = moves[i];
@@ -73,7 +73,6 @@ public class MinimaxAgent implements Agent {
 		}
 	}
 	Move worst = moves[0];
-	worst.value = Integer.MAX_VALUE;
 	for (int i = 1; i < moves.length; i++)
 		if (moves[i].value < worst.value)
 			worst = moves[i];
