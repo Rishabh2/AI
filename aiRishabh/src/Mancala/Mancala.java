@@ -1,7 +1,7 @@
 package Mancala;
 
 public class Mancala {
-	private static final int SIZE = 15;
+	private static final int SIZE = 4;
 	
 	int[] pocket; // array of number of gems per pocket
 	boolean player = true; // true = player 1, false = player 2
@@ -182,7 +182,7 @@ public class Mancala {
 	
 	
 	
-	public boolean playing(int p){
+	public boolean playing(int p) {
 		if (p == 1 && player)
 			return true;
 		if (p == 2 && !player)

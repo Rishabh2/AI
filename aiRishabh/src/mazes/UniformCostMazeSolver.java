@@ -3,10 +3,10 @@ package mazes;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class GreedyBFSMazeSolver implements MazeSolver {
+public class UniformCostMazeSolver implements MazeSolver {
 	private Maze maze;
 	
-	public GreedyBFSMazeSolver (Maze m){
+	public UniformCostMazeSolver (Maze m){
 		maze = m;
 	}
 
@@ -71,8 +71,8 @@ public class GreedyBFSMazeSolver implements MazeSolver {
 
 		@Override
 		public int compare(MazeCell arg0, MazeCell arg1) {
-			int d0 = Math.abs(arg0.getX() - maze.getTarget().getX()) + Math.abs(arg0.getY() - maze.getTarget().getY()) + arg0.getCost(); 
-			int d1 = Math.abs(arg1.getX() - maze.getTarget().getX()) + Math.abs(arg1.getY() - maze.getTarget().getY()) + arg1.getCost();
+			int d0 = arg0.getCost(); 
+			int d1 = arg1.getCost();
 			return d0 - d1;
 			
 		}

@@ -7,6 +7,7 @@ package mazes;
 public class MazeCell {
 	private int x, y;
 	private int state;
+	private int FScore, GScore, HScore;
 
 	// a reference to data used for pathfinding and memoization
 	public MazeCellData data;
@@ -19,6 +20,12 @@ public class MazeCell {
 	public MazeCell(int x, int y) {
 		this.x = x;
 		this.y = y;
+	}
+	
+	public void setScore (Maze m){
+		GScore = this.getCost();
+		HScore = Math.abs(this.getX() - m.getTarget().getX()) + Math.abs(this.getY() - m.getTarget().getY());
+		FScore = GScore + HScore;
 	}
 
 	/**
@@ -36,6 +43,18 @@ public class MazeCell {
 	 */
 	public int getX() {
 		return x;
+	}
+	
+	public int getH() {
+		return HScore;
+	}
+	
+	public int getG() {
+		return GScore;
+	}
+	
+	public int getF() {
+		return FScore;
 	}
 
 	/**

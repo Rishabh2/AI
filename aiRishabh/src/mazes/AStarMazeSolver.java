@@ -1,12 +1,12 @@
 package mazes;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class GreedyBFSMazeSolver implements MazeSolver {
+public class AStarMazeSolver implements MazeSolver {
 	private Maze maze;
-	
-	public GreedyBFSMazeSolver (Maze m){
+	public AStarMazeSolver (Maze m){
 		maze = m;
 	}
 
@@ -28,14 +28,16 @@ public class GreedyBFSMazeSolver implements MazeSolver {
 
 	@Override
 	public Maze getSolution() {
-		PriorityQueue <MazeCell> bag = new PriorityQueue <MazeCell> (10, new MazeCellComparator());
+		PriorityQueue <MazeCell> openbag = new PriorityQueue <MazeCell> (10, new MazeCellComparator());
+		ArrayList <MazeCell> closedbag = new ArrayList <MazeCell> ();
 		boolean found = false;
 		MazeCell current = null;
-		bag.add(maze.getBegin());
+		openbag.add(maze.getBegin());
 		maze.getBegin().setCost(0);
 		while (!found){
-			if (bag.size() == 0) break;
-			current = bag.poll();
+			if (openbag.size() == 0) break;
+			current = openbag.poll();
+			closedbag.add(current);
 			current.setVisited(true);
 			
 			// Check if target
@@ -46,7 +48,8 @@ public class GreedyBFSMazeSolver implements MazeSolver {
 			for (MazeCell cell : neighbors){
 				if (!cell.isVisited()){
 				cell.setCost(current.getCost() + 1);
-				bag.add(cell);
+				cell.setScore(maze);
+				openbag.add(cell);
 				cell.setParent(current);
 				cell.setVisited(true);
 				}
@@ -71,9 +74,7 @@ public class GreedyBFSMazeSolver implements MazeSolver {
 
 		@Override
 		public int compare(MazeCell arg0, MazeCell arg1) {
-			int d0 = Math.abs(arg0.getX() - maze.getTarget().getX()) + Math.abs(arg0.getY() - maze.getTarget().getY()) + arg0.getCost(); 
-			int d1 = Math.abs(arg1.getX() - maze.getTarget().getX()) + Math.abs(arg1.getY() - maze.getTarget().getY()) + arg1.getCost();
-			return d0 - d1;
+			return arg0.getF() - arg1.getF();
 			
 		}
 		

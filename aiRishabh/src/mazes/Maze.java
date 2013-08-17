@@ -13,7 +13,7 @@ public class Maze {
 	private MazeCell[][] maze;
 	private MazeCell begin;
 	private MazeCell target;
-	private int currentTarget = -1, currentTargetNumber = 0;
+	//private int currentTarget = -1, currentTargetNumber = 0;
 
 	// Cell states
 	public static final int PASSABLE = 1;

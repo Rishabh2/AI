@@ -1,0 +1,12 @@
+/Agent.class
+/Board$MoveComparator.class
+/Board.class
+/BoardView.class
+/Driver.class
+/Game.class
+/GameView.class
+/HumanAgent.class
+/Move.class
+/MinimaxAgent.class
+/BadMinimaxAgent.class
+/AlphaBetaAgent.class
